@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "49466659-c005d2fe-5fbf-4f6d-97fd-0a83ac4a79d2",
+		"name": "POSTMANAJMI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "49466659-04493172-3fd4-40f9-ae30-a15b42173463",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
