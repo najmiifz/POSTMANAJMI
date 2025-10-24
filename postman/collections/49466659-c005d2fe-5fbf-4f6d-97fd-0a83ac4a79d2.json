@@ -64,6 +64,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:4000/json",
+			"id": "49466659-c61f499f-0e1f-4404-b857-47195cdb046c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"cihuy\"\r\n    \"kelas\": \"satu\"\r\n    \"hobi\":\"makan\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"json"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
